@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "775537320650",
+    "project_id": "ticketeasy-6a455",
+    "storage_bucket": "ticketeasy-6a455.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775537320650:android:b2c5b5b8503bf052178a33",
+        "android_client_info": {
+          "package_name": "com.example.ticketeasy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFiuvSc0XoisNWMcDGHBU_FzUjnKOadII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
