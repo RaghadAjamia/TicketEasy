@@ -108,42 +108,12 @@ class _ProfilePageState extends State<ProfilePage> {
                       ),
                       onTap: () {},
                     ),
-                    SizedBox(height: 15),
-                    ListTile(
-                      leading: Icon(
-                        Icons.verified_user,
-                        color: orangee,
-                        size: 24,
-                      ),
-                      title: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "\nID number",
-                            style: TextStyle(
-                              color: Color(0xFF59597C),
-                              fontFamily: "Inter",
-                              fontWeight: FontWeight.bold,
-                              fontSize: 16,
-                            ),
-                          ),
-                          SizedBox(height: 4),
-                          Text(
-                            "7896542", // Replace with actual ID if needed
-                            style: TextStyle(
-                              color: Color(0xFF222222).withOpacity(0.8),
-                              fontWeight: FontWeight.w500,
-                            ),
-                          ),
-                        ],
-                      ),
-                      onTap: () {},
-                    ),
+                   
                     SizedBox(height: 15),
                   ],
                 ),
               ),
-              SizedBox(height: 30),
+              SizedBox(height:40),
               MaterialButton(
                 onPressed: () async {
                   await FirebaseAuth.instance.signOut();
